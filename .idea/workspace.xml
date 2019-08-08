@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80bd38da-4a0d-4fb2-a7c6-44831da94d7b" name="Default Changelist" comment="" />
+    <list default="true" id="80bd38da-4a0d-4fb2-a7c6-44831da94d7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deploy/nginx_profile_api.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/server_setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/supervisor_profile_api.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirments.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,37 +18,41 @@
     <session id="562889368">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="conf" value="3" />
           <entry key="md" value="2" />
           <entry key="py" value="15" />
-          <entry key="txt" value="1" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="conf" value="1" />
           <entry key="md" value="94" />
           <entry key="py" value="5210" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="94" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="Python" value="5210" />
         </counts>
       </usages-collector>
@@ -54,93 +64,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile_api/urls.py">
+        <entry file="file://$PROJECT_DIR$/requirments.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/nginx_profile_api.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/supervisor_profile_api.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/profile_api/views.py">
+        <entry file="file://$PROJECT_DIR$/deploy/server_setup.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="156" column="68" selection-start-line="156" selection-start-column="68" selection-end-line="156" selection-end-column="68" />
-              <folding>
-                <element signature="e#1#36#0" expanded="true" />
-                <element signature="e#248#1569#0" />
-                <element signature="e#1614#3025#0" />
-                <marker date="1565182982649" expanded="true" signature="639:1966" ph="..." />
-                <marker date="1565182982649" expanded="true" signature="4339:4910" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile_api/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="38" column="50" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#283#847#0" />
-                <marker date="1565177469674" expanded="true" signature="112:117" ph="..." />
-                <marker date="1565177469674" expanded="true" signature="913:1144" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile_api/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="75" column="49" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#277#1157#0" />
-                <element signature="e#1219#1947#0" />
-                <marker date="1565177107894" expanded="true" signature="272:1173" ph="..." />
-                <marker date="1565177107894" expanded="true" signature="2055:2056" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile_api/permissions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-              <folding>
-                <marker date="1565181634520" expanded="true" signature="92:97" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile_api/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile_project/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="85">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -161,7 +115,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/requirments.txt" />
         <option value="$PROJECT_DIR$/profile_project/settings.py" />
         <option value="$PROJECT_DIR$/profile_api/admin.py" />
         <option value="$PROJECT_DIR$/profile_project/urls.py" />
@@ -170,6 +123,10 @@
         <option value="$PROJECT_DIR$/profile_api/urls.py" />
         <option value="$PROJECT_DIR$/profile_api/permissions.py" />
         <option value="$PROJECT_DIR$/profile_api/views.py" />
+        <option value="$PROJECT_DIR$/requirments.txt" />
+        <option value="$PROJECT_DIR$/deploy/nginx_profile_api.conf" />
+        <option value="$PROJECT_DIR$/deploy/supervisor_profile_api.conf" />
+        <option value="$PROJECT_DIR$/deploy/server_setup.sh" />
       </list>
     </option>
   </component>
@@ -184,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,24 +152,12 @@
             <path>
               <item name="profile-rest-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="profile-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="profile_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profile-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profile-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="profile_api" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profile-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profile-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="profile_project" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -241,6 +187,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" sideWeight="0.50063694" side_tool="true" weight="0.24947146" />
@@ -260,6 +207,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -281,9 +232,6 @@
           <caret line="4" column="23" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirments.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/profile_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -308,9 +256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -318,9 +263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -328,13 +270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="75" column="49" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#277#1157#0" />
-            <element signature="e#1219#1947#0" />
-            <marker date="1565177107894" expanded="true" signature="272:1173" ph="..." />
-            <marker date="1565177107894" expanded="true" signature="2055:2056" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,22 +277,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="38" column="50" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#283#847#0" />
-            <marker date="1565177469674" expanded="true" signature="112:117" ph="..." />
-            <marker date="1565177469674" expanded="true" signature="913:1144" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profile_api/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <marker date="1565181634520" expanded="true" signature="92:97" ph="..." />
-          </folding>
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -365,13 +291,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="156" column="68" selection-start-line="156" selection-start-column="68" selection-end-line="156" selection-end-column="68" />
-          <folding>
-            <element signature="e#1#36#0" expanded="true" />
-            <element signature="e#248#1569#0" />
-            <element signature="e#1614#3025#0" />
-            <marker date="1565182982649" expanded="true" signature="639:1966" ph="..." />
-            <marker date="1565182982649" expanded="true" signature="4339:4910" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirments.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/nginx_profile_api.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/supervisor_profile_api.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/server_setup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
         </state>
       </provider>
     </entry>
