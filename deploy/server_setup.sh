@@ -17,18 +17,18 @@ apt-get update
 apt-get install -y python3-dev python3-venv sqlite python-pip supervisor nginx git
 
 mkdir -p $PROJECT_BASE_PATH
-git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH/profiles-rest-api
+git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH/profile-rest-api
 
 mkdir -p $VIRTUALENV_BASE_PATH
 python3 -m venv $VIRTUALENV_BASE_PATH/profile_api
 
-$VIRTUALENV_BASE_PATH/profile_api/bin/pip install -r $PROJECT_BASE_PATH/profiles-rest-api/requirements.txt
+$VIRTUALENV_BASE_PATH/profile_api/bin/pip install -r $PROJECT_BASE_PATH/profile-rest-api/requirements.txt
 
 # Run migrations
-cd $PROJECT_BASE_PATH/profiles-rest-api/src
+cd $PROJECT_BASE_PATH/profile-rest-api/src
 
 # Setup Supervisor to run our uwsgi process.
-cp $PROJECT_BASE_PATH/profiles-rest-api/deploy/supervisor_profile_api.conf /etc/supervisor/conf.d/profile_api.conf
+cp $PROJECT_BASE_PATH/profile-rest-api/deploy/supervisor_profile_api.conf /etc/supervisor/conf.d/profile_api.conf
 supervisorctl reread
 supervisorctl update
 supervisorctl restart profile_api
